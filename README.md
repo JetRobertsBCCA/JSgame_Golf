@@ -1,1 +1,2 @@
-# JSgame_Golf
+This will be a golf game to help me understand javaS
+
