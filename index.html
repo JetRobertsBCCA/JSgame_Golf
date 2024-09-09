@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D&D Golf Adventure</title>
+  <style>
+    /* Basic styles to lay out the game */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(#050000 0%, #921111 100%);;
+    }
+    
+    h1 {
+      background-color: #827878;
+      color: white;
+      padding: 20px;
+    }
+
+    .game-container {
+      margin: 20px auto;
+      width: 80%;
+      max-width: 1200px;
+      border: 2px solid #333;
+      background-color: rgba(255, 255, 255, 0.655);
+      box-shadow: 5px 5px 15px 13px #000000;
+      padding: 20px;
+    }
+
+    .canvas-container {
+      border: 2px solid black;
+      height: 500px;
+    }
+
+    .stats-container, .actions-container {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>D&D Golf Adventure</h1>
+
+  <div class="game-container">
+    <!-- Placeholder for the game canvas -->
+    <div class="canvas-container" id="gameCanvas">
+      <!-- Canvas will be added later -->
+    </div>
+
+    <!-- Player stats area -->
+    <div class="stats-container" id="playerStats">
+      <h2>Player Stats</h2>
+      <!-- Stats will be dynamically added by JavaScript -->
+    </div>
+
+    <!-- Action buttons for player interaction -->
+    <div class="actions-container" id="actions">
+      <h2>Actions</h2>
+      <button id="swingButton">Swing!</button>
+      <button id="castSpellButton">Cast Spell</button>
+    </div>
+  </div>
+
+  <!-- Link to your JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
